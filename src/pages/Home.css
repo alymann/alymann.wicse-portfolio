@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    background-color: #de87c1;
+    width: 100vw;
+    height: 150vh;
+    padding: 0;
+    margin: 0;
+
+}
+  
+  .pfp{
+    max-width: 20vw;
+    border-radius: 50%;
+  }
