@@ -3,7 +3,7 @@ import pic from '../assets/aly.png'
 import './Home.css'
 
 
-const Home = () => {
+function Home() {
     return (
         <div className='header'>
             <div className='left'>
