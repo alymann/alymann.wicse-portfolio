@@ -2,9 +2,8 @@ import Navbar from './Navbar.jsx'
 
 const About = () => {
     return (
+        
         <div className='about-header' id='about'>
-            <div className='left'>
-            </div>
 
             <div className='right'>
                 <h1>About Me</h1>

@@ -3,10 +3,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5%;
+    gap: 5vw;
     background-color: #de87c1;
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
     padding: 0;
     margin: 0;
 
