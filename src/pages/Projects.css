@@ -1,7 +1,28 @@
 .Cards {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-    column-gap: 2%;
+    flex-wrap:  wrap;
+    align-items: stretch;
+    justify-content:center;
+    height:fit-content;
+    row-gap: 5vh;
+    column-gap: 5vw;
 }
+
+.cardImg{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    align-items: start;
+    align-content: start;
+    padding: 0;
+}
+
+.tempCard{
+    border-radius: 6px;
+    display: flex;
+    align-items: stretch;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

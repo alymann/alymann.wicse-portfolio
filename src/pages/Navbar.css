@@ -1,21 +1,23 @@
 
 .my-navbar {
     background-color: #333;
-    padding: 20px;
+    height: 60px;
     position: fixed; /* Fix the navbar at the top */
     top: 0; /* Align to the top of the viewport */
     left: 0; /* Align to the left of the viewport */
     width: 100%; /* Full width */
     z-index: 1000; /* Ensure it sits above other content */
+    align-content: center;
   }
   
   .navbar-list {
     list-style-type: none;
     display: flex;
     justify-content:flex-end;
+    align-content: center;
     /* justify-items: flex-end; */
     margin: 0;
-    padding-right: 40px;
+    /* padding-right: 40px; */
   }
   
   .navbar-item {
@@ -38,7 +40,7 @@
 
   
   /* Adjust the body or main content padding to account for the my-navbar height */
-  .my-navbar body {
-    padding-top: 50px; /* Adjust based on navbar height */
-  }
+  /* .my-navbar body {
+    padding-top: 50px; 
+  } */
   

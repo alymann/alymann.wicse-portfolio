@@ -6,13 +6,13 @@
     gap: 5vw;
     background-color: #de87c1;
     width: 100vw;
-    height: 100vh;
-    padding: 0;
+    height: 60vh;
+    padding-top: 60px;
     margin: 0;
-
 }
   
   .pfp{
     max-width: 20vw;
+    min-width: 10vw;
     border-radius: 50%;
   }

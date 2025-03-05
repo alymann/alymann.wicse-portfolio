@@ -1,0 +1,42 @@
+#Resume {
+    padding-top: 60px;
+    text-align: left;
+    margin: 0;
+    width: 80vw;
+    justify-content: center;
+}
+
+
+.entry{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.entry > * {
+    margin: 0;
+}
+.entry > * > * {
+    margin: 0;
+}
+
+.title-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section{
+    font-size: x-large;
+    /* border-bottom: 1px solid black; */
+}
+
+.title{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.subtitle{
+    font-style: italic;
+}

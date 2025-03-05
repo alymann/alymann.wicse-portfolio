@@ -15,13 +15,13 @@ function Navbar() {
     <nav className="my-navbar">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <a href="#">Home</a>
+          <a href="/#">Home</a>
         </li>
         <li className="navbar-item">
-          <a href="#about">About</a>
+          <a href="/#about">About</a>
         </li>
         <li className="navbar-item">
-          <a href="#projects">Projects</a>
+          <a href="/#projects">Projects</a>
         </li>
         <li className="navbar-item">
           <Link to="/resume">Resume</Link>

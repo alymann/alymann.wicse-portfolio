@@ -1,62 +1,68 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import minesweeper from '../assets/minesweeper.png'
 import wicse from '../assets/wicse.png'
-import sudoku from '../assets/sudoku.png'
+import snoopy from '../assets/snoopy.png'
+import cs from '../assets/cs.jpg'
 import './Projects.css'
 
 
-function Projects() {
+import ProjectCard from './ProjectCard.jsx';
+
+const Projects = () => {
     return(
         <>
-        <div className='project-header' id='projects'>
-            <div className='right'>
-                <h1>Projects</h1>
+        <section id="projects">
+            <h1>Projects</h1>
+            <div className="Cards">
+                <ProjectCard
+                    title={"Example Project"}
+                    descr={"Describe the project and what you contributed!"}
+                    img={cs}
+                    skills={"Write skills here!"}
+                    // link={""}
+                    link_descr={"Link(if possible)"}
+                />
+                
+                <ProjectCard
+                    title={"WiCSE Website"}
+                    descr={"Updated and maintained the WiCSE website to reflect current club activities."}
+                    img={wicse}
+                    skills={"Angular, TypeScript, Firebase"}
+                    link={"https://ufwicse.com/"}
+                    link_descr={"Link to Website"}
+                />
+
+                <ProjectCard
+                    title={"Minesweeper"}
+                    descr={"Utilized object-oriented programming principles for efficient code organization and maintenance."}
+                    img={minesweeper}
+                    skills={"C++, SFML"}
+                    link={"https://ufwicse.com/"}
+                    link_descr={"Link to GitHub"}
+                />
+
+                <ProjectCard
+                    title={"Lorem ipsum"}
+                    descr={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+                    img={snoopy}
+                    skills={"Lorem ipsum"}
+                    // link={""}
+                    link_descr={"Lorem ipsum"}
+                />
+
+                <ProjectCard
+                    title={"Lorem ipsum"}
+                    descr={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+                    img={snoopy}
+                    skills={"Lorem ipsum"}
+                    // link={""}
+                    link_descr={"Lorem ipsum"}
+                />
             </div>
-        </div>
 
-        <div className='Cards'>
-            <Card style={{ width: '30vw'}}>
-                <Card.Img variant="top" src={minesweeper} style={{height: '150px', width: 'auto'}}/>
-                <Card.Body>
-                    <Card.Title>Minesweeper</Card.Title>
-                    
-                    <Card.Subtitle>Example project from Prog2</Card.Subtitle>
-                    <Card.Text>
-                    Skills: C++, SFML
-                    </Card.Text>
-                    <Button variant="primary" style={{backgroundColor: '#ced4da'}}>Github Link</Button>
-                </Card.Body>
-            </Card>
-
-            <Card style={{ width: '30vw'}}>
-                <Card.Img variant="top" src={wicse} style={{height: '150px', width: 'auto'}}/>
-                <Card.Body>
-                    <Card.Title>WiCSE Website</Card.Title>
-                    
-                    <Card.Subtitle>Example project from WiCSE</Card.Subtitle>
-                    <Card.Text>
-                    Skills: Angular, TypeScript, Firebase
-                    </Card.Text>
-                    <Button variant="primary" style={{backgroundColor: '#ced4da'}}>Website Link</Button>
-                </Card.Body>
-            </Card>
-
-            <Card style={{ width: '30vw'}}>
-                <Card.Img variant="top" src={sudoku} style={{height: '150px', width: 'auto'}}/>
-                <Card.Body>
-                    <Card.Title>Sudoku</Card.Title>
-                    
-                    <Card.Subtitle>Example project from Prog1</Card.Subtitle>
-                    <Card.Text>
-                    Skills: Python, PyGame
-                    </Card.Text>
-                    <Button variant="primary" style={{backgroundColor: '#ced4da'}}>Replit Link</Button>
-                </Card.Body>
-            </Card>
-        </div>
+        </section>
         </>
+
   );
 }
 
-export default Projects;
+export default Projects

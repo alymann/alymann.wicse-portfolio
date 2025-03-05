@@ -1,0 +1,10 @@
+
+.tab-col {
+    width:fit-content;
+}
+
+.tab-row{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
