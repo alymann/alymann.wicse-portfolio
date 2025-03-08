@@ -26,10 +26,8 @@ class ResumeInfo extends React.Component {
                     </ul>
                 </div>
             </div>
-            
         );
     }
-     
 }
 
 export default ResumeInfo

@@ -33,8 +33,8 @@ const Resume = () => {
                 subtitle={'University of Florida, Gainesville, FL'}
                 descrs={[
                     'GPA: 3.5 / 4.0',
-                    'Relevent Coursework: Programming Fundamentals (1 & 2), Applications of Discrete Structures, Data Structures & Algorithms, Introduction to Computer Organization, Object Oriented Programming',
-                    'Involvement: Society of Hispanic Engineers (SHPE), Women in Computer Science and Engineering (WiCSE), WiCSE Corporate Mentorship, Girls Who Code, Colorstack, WiNGHacks',
+                    'Relevent Coursework: Operating Systems, Programming Language Concepts, Data Structures & Algorithms, Object Oriented Programming, Cross-Cultural Engineering & Design, Performant Programming, AI Fundamentals',
+                    'Involvement: Women in Computer Science and Engineering (WiCSE), Colorstack, WiNGHacks',
                     'Honors: Bright Futures Scholarship, Dean’s List'
                 ]}
             />

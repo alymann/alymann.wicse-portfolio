@@ -1,13 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Navbar.css';  
-
-// import Home from './Home.jsx'
-// import About from './About.jsx'
-// import Contact from './Contact.jsx'
-// import Projects from './Projects.jsx'
-// import Resume from './Resume.jsx'
 
 function Navbar() {
   return (
@@ -26,11 +19,6 @@ function Navbar() {
         <li className="navbar-item">
           <Link to="/resume">Resume</Link>
         </li>
-        {/* <li className="navbar-item">
-          <a href="#contact">
-          <FontAwesomeIcon icon="fa-brands fa-linkedin" />
-          </a>
-        </li> */}
       </ul>
     </nav>
     </>
@@ -38,3 +26,4 @@ function Navbar() {
 };
 
 export default Navbar;
+
